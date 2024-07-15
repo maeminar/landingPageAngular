@@ -1,17 +1,13 @@
 import { Component } from '@angular/core';
-import { EnteteComponent } from "../header/header.component";
-import { VideoComponent } from '../benefits/benefits.component';
-import { VisuelsComponent } from '../visuels/visuels.component';
-import { AvantagesComponent } from "../testimony/testimony.component";
-import { TemoignagesComponent } from "../title/title.component";
+import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-header',
   standalone: true,
-  imports: [HeaderComponent, VideoComponent, TitleComponent, BenefitsComponent, TestimonyComponent],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  imports: [RouterLink],
+  templateUrl: './header.component.html',
+  styleUrl: './header.component.css'
 })
-export class HomeComponent {
+export class HeaderComponent {
 
 }
