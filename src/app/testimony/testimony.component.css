@@ -1,0 +1,16 @@
+.card {
+    display: flex;
+    flex-direction: row; /* Alignement horizontal des éléments */
+    justify-content: space-between; /* Espace équitable entre les éléments */
+    align-items: center; /* Centrage vertical des éléments */
+    text-align: left; /* Alignement du texte à gauche */
+    height: 100%;
+    padding: 15px; /* Espacement intérieur de la carte */
+    border: none; /* Suppression de la bordure */
+  }
+
+  .card-img-top {
+    width: 200px; /* Largeur fixe pour les images */
+    height: auto;
+    border-radius: 8px; /* Arrondi des coins de l'image */
+  }
